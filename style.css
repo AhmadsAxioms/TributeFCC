@@ -1,0 +1,47 @@
+body{
+    box-sizing: border-box;
+    padding: 10px 20px;
+    background-color: rgb(197, 201, 201);
+}
+
+#main {
+    text-align: center;
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 100%;
+}
+
+#tribute-info {
+    padding: 15px;
+}
+
+#tribute-info ul li {
+    font-weight: bold;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+
+@media (min-width: 375px) {
+    body {
+        font-size: 1.5em;
+    }
+
+    li {
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    body {
+        font-size: 2em;
+    }
+}
